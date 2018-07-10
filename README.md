@@ -1,9 +1,8 @@
 ## Data mining references
-
 [Association Rule Mining](https://mapr.com/blog/association-rule-mining-not-your-typical-data-science-algorithm/)
 
 ## Association Rule Mining
-* Association rule mining is primarily focused on finding frequent co-occurring associations among a collection of items.
+Association rule mining is primarily focused on finding frequent co-occurring associations among a collection of items.
 
 ## Metrics to form Association rules (support and confidence)
 
@@ -53,6 +52,7 @@ This number is not valid if each of the items is purchased individually.
 **Getting the support and confidence are the pre-requisites for Association Rule.**
 
 ## Apriori Algorithm
+[Apriori Algorithm Wikipedia](https://en.wikipedia.org/wiki/Apriori_algorithm)
 
 ## Frequent Pattern Mining Algorithm
 
