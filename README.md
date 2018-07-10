@@ -1,6 +1,6 @@
 ## Data mining references
 
-(Association Rule Mining)[https://mapr.com/blog/association-rule-mining-not-your-typical-data-science-algorithm/]
+[Association Rule Mining](https://mapr.com/blog/association-rule-mining-not-your-typical-data-science-algorithm/)
 
 ## Association Rule Mining
 * Association rule mining is primarily focused on finding frequent co-occurring associations among a collection of items.
