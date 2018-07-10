@@ -2,7 +2,7 @@
 
 ### Matrix multiplication using tensor flow
 
-```
+```python
 import tensorflow as tf
 import numpy as np
 
