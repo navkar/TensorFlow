@@ -3,7 +3,7 @@
 
 * Find the linear relationship between datasets which is in the form y=w∗x+b
 
-```
+```python
 import numpy as np
 import tensorflow as tf
 import numpy.random as rand
