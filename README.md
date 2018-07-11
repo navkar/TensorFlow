@@ -90,6 +90,8 @@ Lift is a way of quantifying the support and confidence of a set of items.
 Lift (x-> y) = Proportion of transactions with X and Y / (proportion of transactions with x) * (prop of transactions with y)
 ````
 
+#### Example
+A customer is 3 times more likely to purchase a banana given that he/she buys milk and bread together.
 This number is not valid if each of the items is purchased individually.
 
 ## Association Rule
@@ -121,7 +123,9 @@ support 10 % , confidence 60%
 + Among all the transactions that have item A , 60% of the transactions have items B and C.
 
 #### Upward Closure Property
-* There is not much value in calculating the support of any itemset if the all the itemsets are not frequent
+* This property states that an itemset can be considered frequent only if all the items in the set are frequent.
+* There is not much value in calculating the support of any itemset if the all the itemsets are not frequent.
+* This property will help us find frequent item sets faster
 
 #### Finding Frequent Itemset
 
@@ -129,10 +133,9 @@ The following algorithm can be implemented
 
 + First identify and set a threshold for support
 + Construct a list of singletons (1 item-set) - To get this list first start with a list that has every possible item 
-+ CandidateSingletonList - Get the support value for each item - Keep only those items whose support is greater than the threshold Singleton
++ **CandidateSingletonList** - Get the support value for each item - Keep only those items whose support is greater than the threshold Singleton
 
-Repeat similar steps for 2 item and 3 item sets. This concept will be explained in detail in the successive topics.
-
+Repeat similar steps for 2 item and 3 item sets. 
 
 
 
