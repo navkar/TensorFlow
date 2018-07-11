@@ -49,7 +49,46 @@ Lift (x-> y) = Proportion of transactions with X and Y / (proportion of transact
 
 This number is not valid if each of the items is purchased individually.
 
+## Association Rule
+
 **Getting the support and confidence are the pre-requisites for Association Rule.**
+
+After getting the metrics, we can form the Association Rule.
+
+````
+vanilla wafers -> bananas, whipped cream
+[support=10%, confidence=80%]
+````
+
++ Interpreting the above rule, 10% of the carts or baskets have vanilla wafers, banana and whipped cream together.
++ 80% of the customers who brought vanilla wafers also purchased bananas and whipped cream.
+
+### Components of Association Rule
+
+Let us take the rule
+
+````
+item A -> item B , item C 
+support 10 % , confidence 60% 
+````
+
++ Left-hand side is called antecedent
++ Right-hand side is called consequent
++ Items A , B and C are purchased in 10% of the transactions
++ Among all the transactions that have item A , 60% of the transactions have items B and C.
+
+#### Upward Closure Property
+* There is not much value in calculating the support of any itemset if the all the itemsets are not frequent
+
+#### Finding Frequent Itemset
+
+The following algorithm can be implemented
+
++ First identify and set a threshold for support
++ Construct a list of singletons (1 item-set) - To get this list first start with a list that has every possible item 
++ CandidateSingletonList - Get the support value for each item - Keep only those items whose support is greater than the threshold Singleton
+
+Repeat similar steps for 2 item and 3 item sets. This concept will be explained in detail in the successive topics.
 
 ## Apriori Algorithm
 [Apriori Algorithm Wikipedia](https://en.wikipedia.org/wiki/Apriori_algorithm)
