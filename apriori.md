@@ -9,6 +9,9 @@ Apriori Algorithm is a very efficient mechanism for generating Association Rules
 
 The main objective of this algorithm is to determine all the possible rules that satisfy the required support and confidence constraints.
 
+The Apriori algorithm actually solves the complete association rule mining problem, of which mining
+all frequent sets was only the first, but most difficult phase.
+
 #### Steps - Singleton Set
 
 * First identify all possible single item steps
@@ -39,7 +42,7 @@ Depending on the data collected, sometimes
 
 * FP Growth starts with calculating the support for each item
 * The items are sorted based on their support value
-* Then the the items are reshuffled based on their support values
+* Then the items are reshuffled based on their support values
 * The next step is to create a graph
 * Each transaction is represented as a graph
 * Successive transactions are branched out of the initial graph
@@ -54,14 +57,14 @@ Depending on the data collected, sometimes
 
 #### Apriori
 
-* Here single items , pairs , triplets and other sequences are generated for the items across transactions
+* Here single items, pairs, triplets and other sequences are generated for the items across transactions.
 * Generating the candidate items is very time-consuming. The runtime of the algorithm increases exponentially, depending on the diversity of the items.
-* Saves different combination of the items.Consumes a lot of memory.
+* Saves different combination of the items. Consumes a lot of memory.
 * Generating the candidate items is parallelizable.
 
 #### FP Growth
 
-* The sorted items are inserted based on the frequency into a pattern tree
+* The sorted items are inserted based on the frequency into a pattern tree.
 * The increase in runtime is linear and is dependent on the number of items and the transactions.
 * A compact version of the database is stored. Memory consumption is less.
 * The data inherently is interdependent and every node is dependent on the root node.
