@@ -50,7 +50,7 @@ Depending on the data collected, sometimes
 
 ### Apriori Vs FP Growth
 
-
+![Apriori vs FP-growth](https://github.com/navkar/TensorFlow/blob/master/Apriori_FP-growth.jpeg)
 
 #### Apriori
 
