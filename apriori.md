@@ -3,7 +3,7 @@
 
 [Apriori Wikipedia](https://en.wikipedia.org/wiki/Apriori_algorithm)
 
-### Apriori for Association Rule Mining
+### Apriori for Association Rule Mining (downward closure property)
 
 Apriori Algorithm is a very efficient mechanism for generating Association Rules.
 
