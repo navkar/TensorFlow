@@ -85,7 +85,10 @@ confidence(bananas -> vanilla wafers) = support (vanilla wafers U bananas) / sup
 ### Lift
 
 Lift is a way of quantifying the support and confidence of a set of items.
+
+````
 Lift (x-> y) = Proportion of transactions with X and Y / (proportion of transactions with x) * (prop of transactions with y)
+````
 
 This number is not valid if each of the items is purchased individually.
 
