@@ -1,5 +1,6 @@
 ## Data mining references
 + [Association Rule Mining](https://mapr.com/blog/association-rule-mining-not-your-typical-data-science-algorithm/)
++ [Association rule learning](https://en.wikipedia.org/wiki/Association_rule_learning)
 + [mlxtend user guide - association rules](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/)
 
 ## Association Rule Mining
