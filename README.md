@@ -1,5 +1,6 @@
 ## Data mining references
-[Association Rule Mining](https://mapr.com/blog/association-rule-mining-not-your-typical-data-science-algorithm/)
++ [Association Rule Mining](https://mapr.com/blog/association-rule-mining-not-your-typical-data-science-algorithm/)
++ [mlxtend user guide - association rules](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/)
 
 ## Association Rule Mining
 Association rule mining is primarily focused on finding frequent co-occurring associations among a collection of items.
@@ -129,7 +130,11 @@ The following algorithm can be implemented
 Repeat similar steps for 2 item and 3 item sets. This concept will be explained in detail in the successive topics.
 
 ## Apriori Algorithm
+
 [Apriori Algorithm Wikipedia](https://en.wikipedia.org/wiki/Apriori_algorithm)
+
+* Apriori Algorithm is a very efficient mechanism for generating Association Rules.
+* The main objective of this algorithm is to determine all the possible rules that satisfy the required support and confidence constraints.
 
 ## Frequent Pattern Mining Algorithm
 
