@@ -125,7 +125,12 @@ support 10 % , confidence 60%
 #### Upward Closure Property
 * This property states that an itemset can be considered frequent only if all the items in the set are frequent.
 * There is not much value in calculating the support of any itemset if the all the itemsets are not frequent.
-* This property will help us find frequent item sets faster
+* This property will help us find frequent item sets faster.
+
+#### Downward Closure Property
+
+
+
 
 #### Finding Frequent Itemset
 
