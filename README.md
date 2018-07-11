@@ -42,6 +42,44 @@ confidence(A->B) = support(AUB) / support(A)
 
 The confidence of A->B can be explained as percentage of baskets containing A and B divided by the percentage of baskets that containing just A.
 
+#### Example
+
+````python
+basket1 = {'vanilla wafers', 'bananas' , 'dog food'}
+basket2 = {'bananas', 'bread', 'yogurt'}
+basket3 = {'bananas','apples','yogurt'}
+basket4 = {'vanilla wafers','bananas','whipped cream'}
+
+basket5 = {'bread', 'vanilla wafers' , 'yogurt'}
+basket6 = {'milk' 'bread' 'bananas'}
+basket7 = {'vanilla wafers', 'apples' , 'bananas'}
+
+basket8 = {'yogurt', 'apples', 'vanilla wafers'}
+basket9 = {'vanilla wafers', 'bananas' , 'milk'}
+basket10 =  {'bananas', 'bread', 'peanut butter'}
+
+# If we calculate the support for each item we will get
+# * apples 3
+# * bananas 8
+# * bread 4
+# * dog food 1
+# * milk 2
+# * peanut butter 1
+# * vanilla wafers 6
+# * yogurt 4
+# * whipped cream 1
+# When the number expressed above is divided by total number of transactions which is 10, we get the percentage value.
+````
+
+#### Confidence Calculation
+
+````
+confidence(vanilla wafers -> bananas) = support(vanilla wafers U bananas) / support(vanilla wafers)
+= 4/6 = 67%
+confidence(bananas -> vanilla wafers) = support (vanilla wafers U bananas) / support(bananas)
+= 4/8 = 50%
+````
+
 ### Lift
 
 Lift is a way of quantifying the support and confidence of a set of items.
