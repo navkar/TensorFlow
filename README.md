@@ -129,14 +129,7 @@ The following algorithm can be implemented
 
 Repeat similar steps for 2 item and 3 item sets. This concept will be explained in detail in the successive topics.
 
-## Apriori Algorithm
 
-[Apriori Algorithm Wikipedia](https://en.wikipedia.org/wiki/Apriori_algorithm)
-
-* Apriori Algorithm is a very efficient mechanism for generating Association Rules.
-* The main objective of this algorithm is to determine all the possible rules that satisfy the required support and confidence constraints.
-
-## Frequent Pattern Mining Algorithm
 
 
 
